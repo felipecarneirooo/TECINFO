@@ -1,0 +1,44 @@
+body {
+background-color:powderblue;
+
+}
+h1 {
+color:blue;
+}
+p {
+	
+color:red;
+text-align:left;
+
+}
+table, tr, td{
+border:1px solid red;
+border-collapse: colapse;
+
+}
+tr, td{
+background-color: #A020F0;
+
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 33% 10% 45%;
+}
+
+.note{
+	fonte-size:220%;
+	color:green;
+}	
+
+div.mycontainer {
+	width:100%;
+	overflow:auto;
+	
+}
+
+div.mycontainer div {
+	width:33%;
+	float:left;
+	
+}
